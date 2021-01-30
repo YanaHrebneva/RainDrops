@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raindrops - Play</title>
+    <link rel="stylesheet" href="game-style.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="playing-field">
+
+            <img src="media/img/crystal.png" alt="crystal" class="playing-field__crystal">
+            <img src="media/img/SEA.png" alt="wave" class="playing-field__wave playing-field__wave--wave1">
+            <img src="media/img/sea2.png" alt="wave" class="playing-field__wave playing-field__wave--wave2">
+            
+        </div>
+
+        <div class="control">
+
+            <div class="control__score">
+                <span class="control__scoreResult">Score: 0</span>
+            </div>
+
+            <div class="control__keyboard">
+                <input class="control__display" type="number" readonly>
+                <button class="control__button control__button--7">7</button>
+                <button class="control__button control__button--8">8</button>
+                <button class="control__button control__button--9">9</button>
+                <button class="control__button control__button--clear" id="c">Clear</button>
+                <button class="control__button control__button--4">4</button>
+                <button class="control__button control__button--5">5</button>
+                <button class="control__button control__button--6">6</button>
+                <button class="control__button control__button--enter" id="e">Enter</button>
+                <button class="control__button control__button--1">1</button>
+                <button class="control__button control__button--2">2</button>
+                <button class="control__button control__button--3">3</button>
+                <button class="control__button control__button--0">0</button>
+                <button class="control__button control__button--delete" id="d">Del</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

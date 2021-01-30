@@ -1,0 +1,74 @@
+/* @font-face {
+    font-family: Thintel;
+    src: url(fonts/19783.ttf);
+} */
+
+body {
+    margin: 0;
+    background: linear-gradient(#040131,#4bb5e6);
+    height: 100vh;
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 80px;
+    font-family: serif;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 35vw;
+    width: 35vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    font-size: 10vw;
+}
+
+.name:first-letter, .char  {
+    color:  #4bb5e6;
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4bb5e6;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4bb5e6;
+    margin: 0 5px;
+    background: transparent;
+    outline: none;
+}
+
+.menu__button:hover {
+    color: white;
+    border: 1px solid white;
+}
